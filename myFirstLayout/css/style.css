@@ -1,0 +1,26 @@
+header{
+    background-color: #F9FFF2 ;
+    height: 200px;
+    border: 2px solid red;
+}
+nav{
+    border: 2px solid purple;
+}
+div{
+    border: 2px solid blue;
+}
+h1{
+    border: 2px solid green;
+}
+p{
+    color: red;
+}
+main{
+    border:2px solid red;
+}
+section{
+    border: 2px solid blue;
+}
+article{
+    border: 2px solid orange;
+}
