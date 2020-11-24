@@ -3,6 +3,7 @@ header{
     background-color: #F9FFF2 ;
     background-image:url("/assets/images/MaskGroup.png");
     height: 430px;
+    background-position: center;
    /* border: 2px solid red;*/
     display: flex;
 }
@@ -35,6 +36,7 @@ a{
 }
 ul{
     list-style: none;
+   
 }
 .button-blue{
     border-radius: 5px;
@@ -44,11 +46,12 @@ ul{
     color: white;
 }
 
-/**/
+/*
 
 div{
-    /*border: 2px solid blue;*/
+    /*border: 2px solid blue;
 }
+*/
 h1{
    /* border: 2px solid green;*/
     text-align: center;
