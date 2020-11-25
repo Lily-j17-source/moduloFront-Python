@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+.container-squares{
+    display: flex;
+    flex-direction: row;
+}
+
+/* estilos que van enfocados a mobile */
+.container-squares{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.square:first-of-type {
+    background-color: orange;
+   /* display: none;*/
+}
+.tercero{
+    background-color:green;
+}
+
+/* version tablet medium */
+@media only screen and (min-width: 768px) {
+    .container-squares{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+    }
+    .square {
+        width: 200px;
+        border-radius: 5px;
+        margin: 20px 0;
+        background-color: purple;
+    }
+    .square:first-of-type{
+        background-color: green;
+    }
+    .tercero{
+        background-color:blue;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+    /*.square:first-of-type {
+        justify-content: space-around;
+        display: block;
+        background-color: blue;
+    }
+    div.square{
+        justify-content: space-between;
+    }*/
+    .container-squares{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .square:first-of-type{
+        background-color: yellowgreen;
+        /*justify-content: space-around;*/
+    }
+    .tercero{
+        background-color:yellow;
+       /* align-items: flex-end;*/
+        
+    }
+    .square {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+    }
+    
+}
