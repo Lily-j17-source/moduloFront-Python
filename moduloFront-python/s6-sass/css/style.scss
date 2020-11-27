@@ -1,0 +1,59 @@
+$border:1px solic #ccc;
+$color-whithe:#ffffff;
+$color-red:red;
+$font:Arial, Helvetica, sans-serif;
+
+
+@mixin styleButton($bg-color:rgba(0,0,255,0.347, $height,$bg-hover))
+{
+    height: $height;
+    border:none;
+    background-color: $bg-color;
+    color: $color-whithe;
+    border-radius: 50px;
+    &:hover{
+        background-color: $color-red;
+        color: $color-whithe;
+    }
+}
+
+body{
+    font-family: $font;
+}
+/*
+.section .form-login{
+    border:$border;
+    padding: 20px;
+    box-shadow: 2px 5px 5px rgba(0, 0,0, 0.6);
+
+}*/
+.section{
+    border:$border;
+    height: 200px;
+
+    .form-login{
+    border: $border;
+    padding: 20px;
+    box-shadow: 2px 5px 5px ;
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    }
+
+    input{
+        height: 25px;
+        border-radius: 50px;
+        border: $border;
+        padding-left: 10px;
+
+    }
+    
+    .btn{
+        height: 25px;
+        border: none;
+        background-color: rgba(0,0,255,0.347);
+        color: $color-whithe;
+        border-radius: 5px;
+    }
+}

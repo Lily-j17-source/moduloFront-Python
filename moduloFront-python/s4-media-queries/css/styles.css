@@ -1,19 +1,22 @@
 * {
     box-sizing: border-box;
 }
+/*
 .container-squares{
     display: flex;
     flex-direction: row;
 }
-
+*/
 /* estilos que van enfocados a mobile */
 .container-squares{
     display: flex;
     flex-direction: column;
+    justify-content:space-around;
     align-content: center;
 }
 .square {
-    width: 100px;
+    
+    width: 300px;
     height: 100px;
     background-color: red;
 }
@@ -28,12 +31,13 @@
 /* version tablet medium */
 @media only screen and (min-width: 768px) {
     .container-squares{
-        display: flex;
         flex-direction: row;
         flex-wrap:wrap;
+        justify-content: flex-start;
+       /* align-content: center;*/
     }
     .square {
-        width: 200px;
+        width: 300px;
         border-radius: 5px;
         margin: 20px 0;
         background-color: purple;
@@ -43,24 +47,20 @@
     }
     .tercero{
         background-color:blue;
+        width: 300px;
+        
     }
 }
 
 /* Desktop */
 @media only screen and (min-width: 1024px) {
-    /*.square:first-of-type {
-        justify-content: space-around;
-        display: block;
-        background-color: blue;
-    }
-    div.square{
-        justify-content: space-between;
-    }*/
     .container-squares{
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-around;*/
+       
     }
+    
     .square:first-of-type{
         background-color: yellowgreen;
         /*justify-content: space-around;*/
