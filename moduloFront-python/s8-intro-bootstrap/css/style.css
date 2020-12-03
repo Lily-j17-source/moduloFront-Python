@@ -1,0 +1,40 @@
+.container-header{
+    margin-top: 20px;
+    height: 100px;
+    
+}
+.class-nav{
+  height: 40px;
+}
+.container-aside1{
+  margin-top: 20px;
+  
+}
+.class-aside1{
+  height: 150px;
+}
+.container-main{
+  margin-top: 20px;
+  height: 200px;
+}
+.class-article{
+  margin-top: 10px;
+  height: 40px;
+}
+
+.container-footer{
+  background-color: blueviolet;
+  margin-top: 20px;
+  height: 60px;
+}
+
+@media only screen and (min-width:768px)
+{
+ .class-aside1{
+  height: 300px;
+} 
+
+
+
+
+}
